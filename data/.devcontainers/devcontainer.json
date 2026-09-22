@@ -1,0 +1,14 @@
+{
+  "name": "Java funcional e imperativo",
+  "dockerComposeFile": "../compose.yaml",
+  "service": "java",
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "stopCompose",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack"
+      ]
+    }
+  }
+}
